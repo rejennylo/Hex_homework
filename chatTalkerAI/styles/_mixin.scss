@@ -1,0 +1,155 @@
+html, body {
+    font-family: 'Noto Sans TC', sans-serif;
+    box-sizing: border-box;
+    color: #221E1F;
+    line-height: 1.5;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+    color: #747474;
+}
+
+.btn {
+    font-size: 1rem;
+    border-radius: 27px;
+    padding: 0.5rem 0.5rem;
+}
+
+
+@media screen and (min-width: 768px) {
+    .btn {
+        // font-size: 1.1rem;
+        border-radius: 27px;
+        padding: 0.65rem 1.3rem;
+    }
+}
+
+.btn-g {
+    color: #fff;
+    background-color: #56C4C5;
+    border: 1px solid #56C4C5;
+}
+
+.btn-w {
+    color: #56C4C5;
+    background-color: #fff;
+    border: 1px solid #56C4C5;
+}
+
+.btn-r {
+    color: #fff;
+    background-color: #FF5D50;
+    border: 1px solid #FF5D50;
+    padding: 0.75rem 2rem;
+}
+
+.box-shadow {
+    border-radius: 0.75rem;
+    box-shadow: 0px 2px 10px #00000014;
+}
+
+.box-gray {
+    border-radius: 0.75rem;
+    background-color: #F5F5F5;
+}
+
+.fa-check {
+    color: #F5CA52;
+    padding-right: 0.5rem;
+}
+.fa-minus, .fa-plus {
+    color: #56C4C5;
+}
+
+.sub-g {
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: #56C4C5;
+}
+
+.sub-b {
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: #221E1F;
+}
+
+.xl-title {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #221E1F;
+}
+
+.l-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #221E1F;
+}
+
+.tac {
+    text-align: center;
+}
+
+.l-text {
+    font-size: 1.25rem;
+    color: #221E1F;
+}
+
+.n-text {
+    font-size: 1rem;
+    color: #221E1F;
+}
+
+.s-text {
+    font-size: 0.9rem;
+    color: #221E1F;
+}
+
+.text-g {
+    color: #56C4C5;
+    font-weight: bold;
+}
+
+.xs-text {
+    font-size: 0.75rem;
+    color: #221E1F;
+}
+
+.num-g {
+    font-size: 1.75rem;
+    color: #56C4C5;
+}
+
+.num-b {
+    font-size: 1.75rem;
+    color: #221E1F;
+}
+
+.br-g {
+    border-top: 1px solid #DDDDDD;
+}

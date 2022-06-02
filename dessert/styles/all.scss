@@ -1,0 +1,169 @@
+*{
+    // outline: 1px solid tomato;
+}
+
+html, body, div, ol, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+img {
+    width: auto;
+    height: auto;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    display: block;
+    color: #3F5D45;
+}
+
+p {
+    font-size: 1rem;
+    color: #3F5D45;
+}
+
+span {
+    font-size: 1.25rem;
+    color: #3F5D45;
+}
+
+button {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #3F5D45;
+    background-color: #EAF0ED;
+    border: 1px solid #EAF0ED;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 40px;
+}
+
+.link {
+    padding-left: 3rem;
+}
+
+.banner {
+    margin-bottom: 3rem;
+    img {
+        width: 100%;
+    }
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aside {
+    flex-grow: 0.5;
+}
+.label {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #3F5D45;
+    border: 1px solid #EAF0ED;
+    padding: 1rem 2rem;
+}
+.bg-g {
+    color: #EAF0ED;
+    background-color: #3F5D45;
+    border: 1px solid #3F5D45;
+}
+.bg-wg {
+    background-color: #EAF0ED;
+}
+
+.card__list {
+    width: 68%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+.card {
+    width: 48%;
+    position: relative;
+    margin-bottom: 2rem;
+    p{
+        position: absolute;
+        top: -15px;
+        left: 20px;
+        width: 1rem;
+        padding: 0.5rem;
+        color: #EAF0ED;
+        background-color: #3F5D45;
+    }
+    .like {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    .pic {
+        width: 100%;
+    }
+    .info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #EAF0ED;
+        text-align: center;
+        .name {
+            width: 60%;
+            display: block;
+            height: 1.6rem;
+            padding: 10px;
+            border-right: 1px solid #EAF0ED;
+        }
+        .pri {
+            width: 40%;
+            display: block;
+            height: 1.5rem;
+            font-weight: bold;
+        }
+    }
+}
+
+.pagination {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 50px;
+    .pagebar {
+        display: flex;
+        align-items: center;
+        .page {
+            border: 1px solid #EAF0ED;
+            padding: 0.75rem 1rem;
+        }
+        .page__num {
+            padding: 0.8rem 1.5rem;
+            font-size: 1.25em;
+        }
+    }
+}

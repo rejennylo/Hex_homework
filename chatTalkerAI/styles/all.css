@@ -1,0 +1,1052 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  padding: 1.5rem 0;
+  max-width: 1120px;
+  background: none;
+}
+
+header .logo {
+  height: 40px;
+  width: auto;
+  margin-left: 1rem;
+}
+
+header .btn {
+  margin-right: 1rem;
+}
+
+.footer__text {
+  min-width: 375px;
+  text-align: center;
+  background-color: #F5F5F5;
+  font-size: 16px;
+  padding: 16px 0;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    border-bottom: 2px solid #FFD153;
+  }
+  .footer__text {
+    max-width: 1120px;
+  }
+}
+
+html, body {
+  font-family: 'Noto Sans TC', sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #221E1F;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  color: #747474;
+}
+
+.btn {
+  font-size: 1rem;
+  border-radius: 27px;
+  padding: 0.5rem 0.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .btn {
+    border-radius: 27px;
+    padding: 0.65rem 1.3rem;
+  }
+}
+
+.btn-g {
+  color: #fff;
+  background-color: #56C4C5;
+  border: 1px solid #56C4C5;
+}
+
+.btn-w {
+  color: #56C4C5;
+  background-color: #fff;
+  border: 1px solid #56C4C5;
+}
+
+.btn-r {
+  color: #fff;
+  background-color: #FF5D50;
+  border: 1px solid #FF5D50;
+  padding: 0.75rem 2rem;
+}
+
+.box-shadow {
+  border-radius: 0.75rem;
+  -webkit-box-shadow: 0px 2px 10px #00000014;
+          box-shadow: 0px 2px 10px #00000014;
+}
+
+.box-gray {
+  border-radius: 0.75rem;
+  background-color: #F5F5F5;
+}
+
+.fa-check {
+  color: #F5CA52;
+  padding-right: 0.5rem;
+}
+
+.fa-minus, .fa-plus {
+  color: #56C4C5;
+}
+
+.sub-g {
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: #56C4C5;
+}
+
+.sub-b {
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: #221E1F;
+}
+
+.xl-title {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #221E1F;
+}
+
+.l-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #221E1F;
+}
+
+.tac {
+  text-align: center;
+}
+
+.l-text {
+  font-size: 1.25rem;
+  color: #221E1F;
+}
+
+.n-text {
+  font-size: 1rem;
+  color: #221E1F;
+}
+
+.s-text {
+  font-size: 0.9rem;
+  color: #221E1F;
+}
+
+.text-g {
+  color: #56C4C5;
+  font-weight: bold;
+}
+
+.xs-text {
+  font-size: 0.75rem;
+  color: #221E1F;
+}
+
+.num-g {
+  font-size: 1.75rem;
+  color: #56C4C5;
+}
+
+.num-b {
+  font-size: 1.75rem;
+  color: #221E1F;
+}
+
+.br-g {
+  border-top: 1px solid #DDDDDD;
+}
+
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.banner {
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 10rem;
+}
+
+.banner h1 {
+  padding-bottom: 1.5rem;
+}
+
+.platform {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 100px;
+}
+
+.platform .platform__title {
+  text-align: center;
+  padding-bottom: 48px;
+}
+
+.platform .platform__media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.platform .platform__media .media__item {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.platform .platform__media .media__item img {
+  max-width: 90px;
+}
+
+.platform .platform__media .media__item h3 {
+  padding: 24px 0;
+}
+
+.platform .platform__media .media__item p {
+  text-align: center;
+}
+
+.situation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 100px;
+}
+
+.situation .situation__title {
+  text-align: center;
+  padding-bottom: 16px;
+}
+
+.situation span {
+  text-align: center;
+  padding-bottom: 48px;
+  font-size: 20px;
+}
+
+.situation .situation__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 16px;
+}
+
+.situation .situation__card .card__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  border-radius: 12px;
+  -webkit-box-shadow: 0px 2px 10px #00000014;
+          box-shadow: 0px 2px 10px #00000014;
+  background-color: #fff;
+}
+
+.situation .situation__card .card__item img {
+  max-width: 260px;
+  border-radius: 12px 12px 0 0;
+}
+
+.situation .situation__card .card__item h3 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: #56C4C5;
+  padding: 16px 0;
+}
+
+.situation .situation__card .card__item p {
+  text-align: center;
+  font-size: 16px;
+  padding-bottom: 24px;
+}
+
+.feature {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 80px;
+}
+
+.feature .feature__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  width: 50%;
+  gap: 5%;
+}
+
+.feature .feature__card .card__item {
+  width: 33%;
+  padding: 40px 32px 48px;
+  margin-bottom: 28px;
+  border-radius: 12px;
+  -webkit-box-shadow: 0px 2px 10px #00000014;
+          box-shadow: 0px 2px 10px #00000014;
+}
+
+.feature .feature__card .card__item img {
+  max-width: 50px;
+  padding: 16px;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 2px 10px #00000014;
+          box-shadow: 0px 2px 10px #00000014;
+}
+
+.feature .feature__card .card__item h3 {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 24px 0 16px 0;
+}
+
+.feature .feature__card .card__item p {
+  font-size: 16px;
+  color: #221E1F;
+}
+
+.feature .feature__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  width: 40%;
+  margin: 10%;
+}
+
+.feature .feature__text h2 {
+  padding-bottom: 16px;
+}
+
+.feature .feature__text p {
+  font-size: 18px;
+  padding-bottom: 24px;
+  color: #221E1F;
+}
+
+.feature .feature__text a {
+  text-align: center;
+  font-size: 18px;
+  width: 20%;
+  background-color: #56C4C5;
+  border: 1px solid #56C4C5;
+  border-radius: 27px;
+  color: #fff;
+  padding: 12px 32px;
+}
+
+.comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.comment .comment__title {
+  text-align: center;
+  padding-bottom: 104px;
+}
+
+.comment .comment__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 16px;
+  background-color: #fff;
+}
+
+.comment .comment__card .card__item {
+  border-radius: 12px;
+  -webkit-box-shadow: 0px 2px 10px #00000014;
+          box-shadow: 0px 2px 10px #00000014;
+  padding: 48px 32px;
+  position: relative;
+}
+
+.comment .comment__card .card__item img {
+  position: absolute;
+  top: -50px;
+  max-width: 80px;
+  border-radius: 50%;
+}
+
+.comment .comment__card .card__item p {
+  font-size: 16px;
+  color: #221E1F;
+}
+
+.comment .comment__card .card__item .item__line {
+  border-bottom: 1px solid #DDDDDD;
+  margin: 24px 0;
+}
+
+.comment .comment__card .card__item h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.comment .comment__card .card__item .item__user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 8px 0 0;
+}
+
+.comment .comment__card .card__item .item__user span {
+  font-size: 16px;
+}
+
+.comment .comment__card .card__item .item__user span i {
+  padding-left: 8px;
+  color: #F5CA52;
+}
+
+.comment .comment__page {
+  text-align: center;
+  padding: 8px 0;
+  font-size: 40px;
+  letter-spacing: 6px;
+  color: #DDDDDD;
+}
+
+.comment .comment__page .fa-minus {
+  color: #FFD153;
+}
+
+.footer .footer__banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url("/chatTalkerAI/images/home_footer.svg") no-repeat;
+  background-position: top center;
+}
+
+.footer .footer__banner h2 {
+  margin-top: 400px;
+  margin-bottom: 48px;
+}
+
+.footer .footer__banner a {
+  text-align: center;
+  font-size: 18px;
+  width: 80px;
+  background-color: #56C4C5;
+  border: 1px solid #56C4C5;
+  border-radius: 50px;
+  color: #fff;
+  padding: 16px 32px;
+  margin-bottom: 80px;
+}
+
+.wrap {
+  max-width: 1366px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.topicon {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 65vh;
+  left: 85%;
+  background-color: #56C4C5;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.topicon span {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.home {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("/chatTalkerAI/images/home.svg");
+  background-repeat: no-repeat;
+  background-size: 35%;
+  background-position: top 150px right 180px;
+}
+
+.yellow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("/chatTalkerAI/images/bg_home.svg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  z-index: -1;
+}
+
+.ball01 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("/chatTalkerAI/images/ball01.svg");
+  background-repeat: no-repeat;
+  background-position: -200px 500px;
+}
+
+.ball02 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("/chatTalkerAI/images/ball02.svg");
+  background-repeat: no-repeat;
+  background-position: right 0 top 1550px;
+}
+
+.ball03 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("/chatTalkerAI/images/ball03.svg");
+  background-repeat: no-repeat;
+  background-position: left 50px top 2600px;
+}
+
+@media screen and (max-width: 1080px) {
+  .feature .feature__card {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .feature .feature__card .card__item {
+    min-width: 175px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .platform .platform__title {
+    font-size: 28px;
+    padding-bottom: 32px;
+  }
+  .platform .platform__media {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .platform .platform__media .media__item {
+    width: 100%;
+    padding-bottom: 24px;
+  }
+  .situation {
+    padding-bottom: 60px;
+  }
+  .situation .situation__title {
+    font-size: 28px;
+    padding-bottom: 32px;
+  }
+  .situation span {
+    font-size: 18px;
+    padding-bottom: 32px;
+  }
+  .situation .situation__card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .feature {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-flow: column-reverse wrap;
+            flex-flow: column-reverse wrap;
+  }
+  .feature .feature__text {
+    width: 100%;
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    padding-bottom: 32px;
+  }
+  .feature .feature__card {
+    width: 80%;
+    margin: 0 auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .feature .feature__card .card__item {
+    width: 50%;
+    gap: 0;
+  }
+  .comment {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .comment .comment__title {
+    font-size: 28px;
+    padding-bottom: 88px;
+  }
+  .comment .comment__card {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .comment .comment__card .card__item {
+    min-width: 175px;
+  }
+  .comment .comment__card .card__item__noene {
+    display: none;
+  }
+  .footer {
+    min-width: 375px;
+  }
+  .footer .footer__banner {
+    background-image: url("/chatTalkerAI/images/footer_sm.svg");
+    background-size: 100vw;
+  }
+  .banner {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    padding-top: 3rem;
+  }
+  .wrap .home {
+    background-size: 70%;
+    background-position: 10vw 40vh;
+  }
+  .wrap .yellow {
+    background-image: url("/chatTalkerAI/images/bg_home_sm.svg");
+    background-position: 0vw 50vh;
+    background-size: 90vw;
+  }
+  .wrap .topicon {
+    width: 50px;
+    height: 50px;
+    top: 80vh;
+  }
+  .wrap .ball01 {
+    background-size: 35%;
+    background-position: top 720px left -80px;
+  }
+  .wrap .ball02 {
+    background-size: 35%;
+    background-position: top 3250px right -40px;
+  }
+  .wrap .ball03 {
+    background-size: 40%;
+    background-position: top 5100px left -50px;
+  }
+}
+
+.container {
+  min-width: 375px;
+  margin: 0 auto;
+}
+
+.wrap {
+  max-width: 1366px;
+  margin: 0 auto;
+}
+
+.topicon {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 65vh;
+  left: 85%;
+  background-color: #56C4C5;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.topicon span {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.hero-banner {
+  width: 100%;
+  height: 55vh;
+  position: relative;
+}
+
+.hero-banner .hero {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url("/chatTalkerAI/images/banner.svg");
+  background-repeat: no-repeat;
+  background-position: top 0 right 0;
+  z-index: -1;
+}
+
+.hero-banner .text {
+  max-width: 1120px;
+  margin: 10% auto 0;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    background-color: #fff;
+  }
+  .hero-banner {
+    height: 90vh;
+  }
+  .hero-banner .hero {
+    background-image: url("/chatTalkerAI/images/banner_sm.svg");
+    background-position: left;
+    background-size: 100vw;
+  }
+}
+
+.plan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 1.5rem 3.75rem;
+}
+
+.plan .btn__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1.5rem 0 2rem;
+}
+
+.plan .card__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1.5rem;
+}
+
+.plan .card__list .card {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  padding-bottom: 1.5rem;
+}
+
+.plan .card__list .card .l-title {
+  margin: 1rem 0;
+}
+
+.plan .card__list .card .n-text {
+  padding: 1rem;
+  height: 10%;
+}
+
+.plan .card__list .card .gray-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.plan .card__list .card .gray-group .box-gray {
+  text-align: center;
+  padding: 0.5rem 1rem;
+}
+
+.plan .card__list .card .lists {
+  padding: 1rem;
+}
+
+.plan .card__list .card .lists .list {
+  padding: 0.5rem 0;
+}
+
+.plan .card__list .card .btn {
+  min-width: 136px;
+  margin: 0 auto;
+}
+
+.ask {
+  margin: 0 1.5rem 3.75rem;
+}
+
+.ask .xl-title {
+  padding-bottom: 1.5rem;
+}
+
+.ask .ask__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1.5rem;
+}
+
+.ask .ask__list .q-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+}
+
+.ask .ask__list p {
+  padding: 0 1rem 1rem 1rem;
+}
+
+.footer__text {
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 1120px;
+  }
+  .plan {
+    max-width: 910px;
+    margin: 0 auto 3.75rem;
+  }
+  .plan .btn__list {
+    padding: 2rem 0;
+  }
+  .plan .btn__list .btn {
+    margin: 0 0.25rem;
+  }
+  .plan .card__list {
+    width: 100%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .plan .card__list .card {
+    width: 48%;
+  }
+  .ask {
+    max-width: 910px;
+    margin: 0 auto 3.75rem;
+  }
+}
+/*# sourceMappingURL=all.css.map */
