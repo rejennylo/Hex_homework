@@ -1,14 +1,17 @@
-html, body, div, ol, ul, li {
-  margin: 0;
-  padding: 0;
+*, *::before, *::after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+html, body, div, ol, ul, li, h1, h2, p, a, span, button {
+  margin: 0;
+  padding: 0;
   list-style: none;
+  font-size: 1rem;
 }
 
 img {
   width: auto;
-  height: auto;
   display: block;
 }
 
@@ -37,7 +40,12 @@ button {
   background-color: #EAF0ED;
   border: 1px solid #EAF0ED;
   width: 100%;
-  padding: 0.5rem;
+  padding: 0.75rem;
+}
+
+button:hover {
+  color: #EAF0ED;
+  background-color: #3F5D45;
 }
 
 .container {
@@ -55,6 +63,7 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 1rem 0 1.5rem;
 }
 
 .navbar {
@@ -74,7 +83,12 @@ header {
 }
 
 .link {
-  padding-left: 3rem;
+  margin-left: 3rem;
+  padding: 0.5rem 1rem;
+}
+
+.link:hover {
+  background-color: #EAF0ED;
 }
 
 .banner {
@@ -100,7 +114,7 @@ header {
           flex-grow: 0.5;
 }
 
-.label {
+.category {
   font-size: 1.5rem;
   font-weight: bold;
   text-align: center;
@@ -115,7 +129,8 @@ header {
   border: 1px solid #3F5D45;
 }
 
-.bg-wg {
+.bg-wg:hover {
+  color: #3F5D45;
   background-color: #EAF0ED;
 }
 
@@ -132,6 +147,7 @@ header {
       -ms-flex-pack: justify;
           justify-content: space-between;
   gap: 0.5rem;
+  margin-bottom: 30px;
 }
 
 .card {
@@ -140,12 +156,15 @@ header {
   margin-bottom: 2rem;
 }
 
-.card p {
+.card .lable {
   position: absolute;
-  top: -15px;
   left: 20px;
-  width: 1rem;
-  padding: 0.5rem;
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+  line-height: 1;
+  letter-spacing: 0.5rem;
+  padding: 0.75rem 1rem 0.5rem 0.75rem;
   color: #EAF0ED;
   background-color: #3F5D45;
 }
@@ -154,6 +173,10 @@ header {
   position: absolute;
   top: 20px;
   right: 20px;
+}
+
+.card .like:hover {
+  width: 1.5rem;
 }
 
 .card .pic {
@@ -175,17 +198,16 @@ header {
 }
 
 .card .info .name {
+  font-size: 1.25rem;
   width: 60%;
-  display: block;
-  height: 1.6rem;
-  padding: 10px;
+  color: #3F5D45;
+  padding: 14px;
   border-right: 1px solid #EAF0ED;
 }
 
 .card .info .pri {
   width: 40%;
-  display: block;
-  height: 1.5rem;
+  font-size: 1.25rem;
   font-weight: bold;
 }
 
